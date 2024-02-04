@@ -12,7 +12,8 @@
 <body>
     <div class="nav"><h3>My TicTacToe</h3></div>
     <div class="main">
-        <h1 class="text">Turn For '<span class="turn">X</span>'</h1>
+        <h1 class="text"></h1>
+        <button id="restart" class="btn">Play Again</button>
         <div class="container">
             <div>
                 <div id="1"  class="boxes bb br"><span class="boxtext"></span></div>
@@ -30,7 +31,15 @@
                 <div id="9" class="boxes bl"><span class="boxtext"></span></div>
             </div>
         </div>
+        <div class="choice">
+            <p>Select Game Mode</p>
+            <div id="btns">
+                <button class="btn" id="cpu">Vs CUP</button>
+                <button class="btn" id="player">2 Player</button>
+            </div>
+        </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
